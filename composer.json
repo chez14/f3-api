@@ -1,0 +1,22 @@
+{
+    "name": "chez14/f3-api",
+    "description": "",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris",
+            "email": "gunawan@christianto.net"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "bcosca/fatfree-core": "^3.6"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "require-dev": {
+        "rafamds/f3-falsum": "^2.6"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9d172102f67664196a599d4f3e853cbe",
+    "packages": [
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "3.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree-core.git",
+                "reference": "ded2875b61e69e980d04346ca9b42350ffad8d70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/ded2875b61e69e980d04346ca9b42350ffad8d70",
+                "reference": "ded2875b61e69e980d04346ca9b42350ffad8d70",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "time": "2017-06-26T10:03:43+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "rafamds/f3-falsum",
+            "version": "v2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafamds/f3-falsum.git",
+                "reference": "630b749fd0d436340a87eaeeea86f8644ab8f4de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafamds/f3-falsum/zipball/630b749fd0d436340a87eaeeea86f8644ab8f4de",
+                "reference": "630b749fd0d436340a87eaeeea86f8644ab8f4de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Falsum\\": "src/Falsum/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Morais dos Santos",
+                    "homepage": "https://ra.fael.ml",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pretty error handling for Fat-Free Framework",
+            "homepage": "https://github.com/rooftoprafa/f3-falsum",
+            "keywords": [
+                "F3",
+                "error",
+                "exception",
+                "falsum",
+                "fat-free framework",
+                "handling",
+                "library"
+            ],
+            "time": "2017-01-30T13:35:08+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "beta",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
