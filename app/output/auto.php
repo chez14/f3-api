@@ -6,7 +6,7 @@ class Auto extends \Prefab {
     }
 
     public function success($data){
-        
+        Formatter::instance()->format_success($data);        
     }
 
     public function serve($data){

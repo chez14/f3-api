@@ -1,7 +1,7 @@
 <?php
 namespace Model;
 
-class ErrorModel extends Exception{
+class Error extends Exception{
     private
         $reason,
         $error_code,

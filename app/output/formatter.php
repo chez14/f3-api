@@ -10,7 +10,7 @@ class formatter extends \Prefab{
         ];
     }
 
-    public function format_error(\Model\ErrorModel $data){
+    public function format_error(\Model\Error $data){
         return [
             "status" => false,
             "data" => null,
