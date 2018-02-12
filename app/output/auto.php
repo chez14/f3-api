@@ -2,7 +2,7 @@
 Namespace Output;
 class Auto extends \Prefab {
     public function error($data){
-
+        Formatter::instance()->format_error($data);
     }
 
     public function success($data){

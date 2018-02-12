@@ -2,6 +2,10 @@
 namespace Output;
 
 class JSON extends \Prefab {
+
+    
+
+
     public function serve($data){
         $f3 = \F3::instance();
         echo json_encode($data, [

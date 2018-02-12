@@ -25,7 +25,7 @@ class ErrorModel extends Exception{
             "description" => $this->description,
             "reason" => $this->reason,
             "error_code" => $this->error_code,
-            "prevErrorModel" => $this->prevErrorModel,
+            "error_stack" => $this->prevErrorModel->serve_exception,
             "exception" => $this->exception
         ];
     }
