@@ -8,12 +8,10 @@
     best regards,
     Chez14
 */
-array_map(function($data){require "../" . $data;},[
+array_map(function($data){require dirname(__DIR__) . "/" . $data;},[
     'vendor/autoload.php',
     'app/config.php',
     'app/app.php'
 ]);
 $f3 = \F3::instance();
-if($f3->get("DEBUG") > 2)
-    \Falsum\Run::handler();
 $f3->run();

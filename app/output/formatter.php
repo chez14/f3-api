@@ -14,7 +14,7 @@ class formatter extends \Prefab{
         return [
             "status" => false,
             "data" => null,
-            "error" => $data
+            "error" => $data->serve_exception()
         ];
     }
 }
