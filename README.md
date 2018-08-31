@@ -5,13 +5,12 @@ I really love to make  APIs so here's my basic API Standard.
 Heavily inspired by Facebook API and my senpai's standard.
 
 ## Installed Instance:
-- Falsum for debugging.
 - Fat-free for the cure core of this boilerplate.
 - Cortex for modelling (you could remove it easily, please see our manual (soon))
 
 ## Features
 Better output standards. the `app/output/formatter.php` are responsible to make your outputs beautiful.
-It's designed to be easily changed. The `app/output/auto.php` are the one responsible to choose whether it's XML or JSON output.
+It's designed to be easily changed. The `app/view/api.php` are the one responsible to choose whether it's XML or JSON output.
 
 ### API Standards
 | Method            | URL                | Controller                       | Description                                         |
@@ -26,4 +25,4 @@ It's designed to be easily changed. The `app/output/auto.php` are the one respon
 **NOTE**: Oh the future, i'll add the `Authorization` header required for API Key and etcs. Please bear with us.
 
 ## License
-[MIT](LICENSE). You're allowed to use it as you like, but please consider to write our name and link to this repo on your API Document. Oh don't forget with the FatFreeFramework too!
+[GPLv3](LICENSE).
