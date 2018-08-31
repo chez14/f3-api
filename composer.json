@@ -1,8 +1,8 @@
 {
     "name": "chez14/f3-api",
-    "description": "",
+    "description": "FatFree Framework API Boilerplate",
     "type": "project",
-    "license": "MIT",
+    "license": "GPLv3",
     "authors": [
         {
             "name": "Chris",
@@ -15,8 +15,5 @@
     },
     "config": {
         "vendor-dir": "vendor"
-    },
-    "require-dev": {
-        "rafamds/f3-falsum": "^2.6"
     }
 }
