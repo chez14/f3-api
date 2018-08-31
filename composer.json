@@ -6,7 +6,9 @@
     "authors": [
         {
             "name": "Chris",
-            "email": "gunawan@christianto.net"
+            "homepage": "https://christianto.net",
+            "email": "chris@christianto.net",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "beta",
