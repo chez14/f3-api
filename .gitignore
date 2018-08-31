@@ -1,5 +1,5 @@
 #Composer Related
-/vendor/
+/vendor/*
 
 
 #FatFree Related
