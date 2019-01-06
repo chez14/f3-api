@@ -19,3 +19,5 @@
             \F3::set('DB', null);
         }
     }
+
+    \Chez14\Ilgar\Boot::now();

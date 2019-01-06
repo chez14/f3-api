@@ -1,9 +1,12 @@
-#Composer Related
+# Composer Related
 /vendor/*
 composer.lock
 
-#FatFree Related
+# FatFree Related
 /tmp/*
 /app/config/site.ini
 !.gitkeep
 !.htaccess
+
+# F3-API Related
+app/config/migration.json

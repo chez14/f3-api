@@ -23,9 +23,9 @@ class Api {
 
     protected static function serve($data){
         $f3 = \F3::instance();
-        if(strtolower($f3->PARAMS['extention']) == 'json' || $f3->PARAMS['extention'] == ''){
+        if(strtolower($f3->PARAMS['extension']) == 'json' || $f3->PARAMS['extension'] == ''){
             \Output\JSON::instance()->serve($data);
-        } else if(strtolower($f3->PARAMS['extention']) == 'xml') {
+        } else if(strtolower($f3->PARAMS['extension']) == 'xml') {
             \Output\XML::instance()->serve($data);
         } else {
             \Output\Plain::instance()->serve($data);

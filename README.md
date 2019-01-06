@@ -14,8 +14,8 @@ Better output standards. the `app/output/formatter.php` are responsible to make 
 It's designed to be easily changed. The `app/view/api.php` are the one responsible to choose whether it's XML or JSON output.
 
 ### API Standards
-| Method            | URL                | Controller                       | Description                                         |
-|-------------------|--------------------|----------------------------------|-----------------------------------------------------|
+| Method            | URL                                         | Controller                        | Description                                         |
+|-------------------|---------------------------------------------|-----------------------------------|-----------------------------------------------------|
 | GET               | /@module/@func(.json \| .xml \| `null`)     | Controller\\@module->get_@func    | Usually i get listings of things by this method.    |
 | POST              | /@module/@func(.json \| .xml \| `null`)     | Controller\\@module->post_@func   | Usually i create object with this.                  |
 | PUT (POST-like)   | /@module/@func(.json \| .xml \| `null`)     | Controller\\@module->put_@func    | I update things here.                               |
@@ -40,7 +40,7 @@ It's designed to be easily changed. The `app/view/api.php` are the one responsib
 
 - Run the development server:
     ```shell
-    $ composer start
+    $ composer run-script start --timeout=0
     ```
 - Run a migration
     
