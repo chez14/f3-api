@@ -13,9 +13,15 @@
     ],
     "minimum-stability": "beta",
     "require": {
-        "bcosca/fatfree-core": "^3.6"
+        "bcosca/fatfree-core": "^3.6",
+        "spatie/array-to-xml": "^2.8",
+        "ikkez/f3-cortex": "^1.5",
+        "chez14/f3-ilgar": "v1.0.0.1"
     },
     "config": {
         "vendor-dir": "vendor"
+    },
+    "scripts": {
+        "start":"./start_php_dev_server.sh"
     }
 }
