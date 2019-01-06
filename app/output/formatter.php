@@ -6,7 +6,7 @@ class formatter extends \Prefab{
         return [
             "status" => true,
             "data" => $data,
-            "error" => false
+            "error" => null
         ];
     }
 
