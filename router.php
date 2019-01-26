@@ -7,5 +7,6 @@ if (php_sapi_name() == "cli-server") {
     if (!in_array($ext, $extensions)) {
         return false;  
     }
+    $_SERVER['SCRIPT_NAME']='index.php';
     include "public_html/index.php";
 }
