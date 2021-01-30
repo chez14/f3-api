@@ -1,6 +1,5 @@
 # Composer Related
 /vendor/*
-composer.lock
 
 # FatFree Related
 /tmp/*
