@@ -13,9 +13,9 @@
     ],
     "minimum-stability": "beta",
     "require": {
-        "bcosca/fatfree-core": "^3.6",
-        "spatie/array-to-xml": "^2.8",
-        "ikkez/f3-cortex": "^1.5",
+        "bcosca/fatfree-core": "^3.7",
+        "spatie/array-to-xml": "^2.15",
+        "ikkez/f3-cortex": "^1.7",
         "chez14/f3-ilgar": "v1.0.0.1"
     },
     "config": {
