@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f658d29c9b308d9550baf324822069a3",
+    "content-hash": "8f1907197525843464c54998b01de77a",
     "packages": [
         {
             "name": "bcosca/fatfree-core",
@@ -43,25 +43,24 @@
         },
         {
             "name": "chez14/f3-ilgar",
-            "version": "v1.0.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chez14/f3-ilgar.git",
-                "reference": "281e1e50716e90f1416c7df13608c7df2ffcd69e"
+                "reference": "88e96b0ff665d39b3a71cc3ec185864b879888ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chez14/f3-ilgar/zipball/281e1e50716e90f1416c7df13608c7df2ffcd69e",
-                "reference": "281e1e50716e90f1416c7df13608c7df2ffcd69e",
+                "url": "https://api.github.com/repos/chez14/f3-ilgar/zipball/88e96b0ff665d39b3a71cc3ec185864b879888ba",
+                "reference": "88e96b0ff665d39b3a71cc3ec185864b879888ba",
                 "shasum": ""
             },
             "require": {
                 "monolog/monolog": "^1.23",
-                "php": ">=5.6"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "bcosca/fatfree-core": "^3.6",
-                "phpunit/phpunit": "^5"
+                "bcosca/fatfree-core": "^3.6"
             },
             "type": "library",
             "autoload": {
@@ -97,7 +96,7 @@
                 "issues": "https://github.com/chez14/f3-ilgar/issues",
                 "source": "https://github.com/chez14/f3-ilgar/tree/master"
             },
-            "time": "2018-09-07T04:46:28+00:00"
+            "time": "2019-06-09T11:03:12+00:00"
         },
         {
             "name": "ikkez/f3-cortex",
