@@ -100,16 +100,16 @@
         },
         {
             "name": "ikkez/f3-cortex",
-            "version": "v1.7.1",
+            "version": "v1.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ikkez/f3-cortex.git",
-                "reference": "22b7fb87ff4a406e9a6de7fee8ab4de7f580ded2"
+                "reference": "152743866491f3f7545a391bbe991c2d73fd29ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/22b7fb87ff4a406e9a6de7fee8ab4de7f580ded2",
-                "reference": "22b7fb87ff4a406e9a6de7fee8ab4de7f580ded2",
+                "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/152743866491f3f7545a391bbe991c2d73fd29ff",
+                "reference": "152743866491f3f7545a391bbe991c2d73fd29ff",
                 "shasum": ""
             },
             "require": {
@@ -136,9 +136,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ikkez/f3-cortex/issues",
-                "source": "https://github.com/ikkez/f3-cortex/tree/v1.7.1"
+                "source": "https://github.com/ikkez/f3-cortex/tree/v1.7.3"
             },
-            "time": "2020-12-06T22:08:57+00:00"
+            "time": "2021-03-15T10:49:07+00:00"
         },
         {
             "name": "ikkez/f3-schema-builder",
