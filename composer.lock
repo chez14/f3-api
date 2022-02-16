@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bcosca/fatfree-core",
-            "version": "3.7.3",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcosca/fatfree-core.git",
-                "reference": "3e23ae05384b2f830e99c5888b94118819ed948b"
+                "reference": "cdd878db018280369b643fce62f70e55044f9ac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/3e23ae05384b2f830e99c5888b94118819ed948b",
-                "reference": "3e23ae05384b2f830e99c5888b94118819ed948b",
+                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/cdd878db018280369b643fce62f70e55044f9ac4",
+                "reference": "cdd878db018280369b643fce62f70e55044f9ac4",
                 "shasum": ""
             },
             "require": {
@@ -37,9 +37,9 @@
             "homepage": "http://fatfreeframework.com/",
             "support": {
                 "issues": "https://github.com/bcosca/fatfree-core/issues",
-                "source": "https://github.com/bcosca/fatfree-core/tree/3.7.3"
+                "source": "https://github.com/bcosca/fatfree-core/tree/3.8.0"
             },
-            "time": "2020-12-13T12:49:39+00:00"
+            "time": "2022-02-15T16:59:01+00:00"
         },
         {
             "name": "chez14/f3-ilgar",
@@ -389,5 +389,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.2.0"
 }
