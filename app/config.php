@@ -1,23 +1,25 @@
 <?php
-    chdir(dirname(__DIR__));
-    // Config Loader
-    \F3::instance()->config("app/config/config.ini");
+chdir(dirname(__DIR__));
+// Config Loader
+\F3::instance()->config("app/config/config.ini");
 
-    //connect to SQL Database.
-    \F3::set('SYSTEM.DB', false);
-    if(F3::instance()->exists('database')) {
-        try {
-            \F3::set('DB', new \DB\SQL(F3::get('database.dsn'),
-                F3::get('database.username'),
-                F3::get('database.password'), [
-                    \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
-                    \PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
-                ])
-            );
-            \F3::set('SYSTEM.DB', true);
-        } catch (PDOException $e){
-            \F3::set('DB', null);
-        }
-    }
+//connect to SQL Database.
+\F3::set('SYSTEM.DB', false);
+if (F3::instance()->exists('database')) {
+    $dbDSN = F3::get('ENV.DB_DSN') ?? getenv('DB_DSN');
+    $dbUSERNAME = F3::get('ENV.DB_USERNAME') ?? getenv('DB_USERNAME');
+    $dbPASSWORD = F3::get('ENV.DB_PASSWORD') ?? getenv('DB_PASSWORD');
+    \F3::set(
+        'DB',
+        new \DB\SQL(
+            $dbDSN,
+            $dbUSERNAME,
+            $dbPASSWORD
+        )
+    );
+    \F3::set('SYSTEM.DB', true);
+}
 
-    \CHEZ14\Ilgar\Boot::now();
+F3::set('ILGAR.path', "app/migration/");
+
+\CHEZ14\Ilgar\Boot::now();
