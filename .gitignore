@@ -3,7 +3,6 @@
 
 # FatFree Related
 /tmp/*
-/app/config/site.ini
 !.gitkeep
 !.htaccess
 

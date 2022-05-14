@@ -1,5 +1,12 @@
-MYSQL_ROOT_PASSWORD=baccano
-MYSQL_DATABASE=f3api
+## FatFree Configuration
+DB_DSN="mysql:host=db;port=3306;dbname=f3api;charset=utf8"
+DB_USERNAME=f3api
+DB_PASSWORD=baccano
+
+## Infrastructure configurations
+MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+MYSQL_DATABASE=${DB_USERNAME}
 MYSQL_HOST=db
+
 PMA_USER=root
 PMA_PASSWORD=${MYSQL_ROOT_PASSWORD}
