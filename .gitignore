@@ -9,3 +9,6 @@
 
 # F3-API Related
 app/config/migration.json
+
+.env
+/.infra/
