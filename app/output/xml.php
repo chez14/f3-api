@@ -4,7 +4,7 @@ use Spatie\ArrayToXml\ArrayToXml;
 
 class XML extends \Prefab {
 
-    public $xmlns = "https://git.christianto.net/f3-api/xmlns/generic-v1";
+    public $xmlns = "https://schemas.christianto.net/f3-api/generic-response.v1.0.0.schema.xml";
     public $rootElementName = 'Result';
 
     public function serve($data){

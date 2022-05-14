@@ -14,9 +14,10 @@
     "minimum-stability": "beta",
     "require": {
         "bcosca/fatfree-core": "^3.7",
-        "spatie/array-to-xml": "^2.15",
         "ikkez/f3-cortex": "^1.7",
-        "chez14/f3-ilgar": "v1.1.0"
+        "chez14/f3-ilgar": "dev-next",
+        "monolog/monolog": "^2.6",
+        "spatie/array-to-xml": "^3.1"
     },
     "config": {
         "vendor-dir": "vendor"

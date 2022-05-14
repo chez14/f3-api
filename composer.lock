@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f1907197525843464c54998b01de77a",
+    "content-hash": "f6ebcb4fac0b746a2b8dd857ac064ea5",
     "packages": [
         {
             "name": "bcosca/fatfree-core",
-            "version": "3.7.3",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcosca/fatfree-core.git",
-                "reference": "3e23ae05384b2f830e99c5888b94118819ed948b"
+                "reference": "cdd878db018280369b643fce62f70e55044f9ac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/3e23ae05384b2f830e99c5888b94118819ed948b",
-                "reference": "3e23ae05384b2f830e99c5888b94118819ed948b",
+                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/cdd878db018280369b643fce62f70e55044f9ac4",
+                "reference": "cdd878db018280369b643fce62f70e55044f9ac4",
                 "shasum": ""
             },
             "require": {
@@ -37,36 +37,46 @@
             "homepage": "http://fatfreeframework.com/",
             "support": {
                 "issues": "https://github.com/bcosca/fatfree-core/issues",
-                "source": "https://github.com/bcosca/fatfree-core/tree/3.7.3"
+                "source": "https://github.com/bcosca/fatfree-core/tree/3.8.0"
             },
-            "time": "2020-12-13T12:49:39+00:00"
+            "time": "2022-02-15T16:59:01+00:00"
         },
         {
             "name": "chez14/f3-ilgar",
-            "version": "v1.1.0",
+            "version": "dev-next",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chez14/f3-ilgar.git",
-                "reference": "88e96b0ff665d39b3a71cc3ec185864b879888ba"
+                "reference": "59b99e0bfbc7edbfffef10762773061a8879416b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chez14/f3-ilgar/zipball/88e96b0ff665d39b3a71cc3ec185864b879888ba",
-                "reference": "88e96b0ff665d39b3a71cc3ec185864b879888ba",
+                "url": "https://api.github.com/repos/chez14/f3-ilgar/zipball/59b99e0bfbc7edbfffef10762773061a8879416b",
+                "reference": "59b99e0bfbc7edbfffef10762773061a8879416b",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "^1.23",
-                "php": ">=7.1"
+                "php": ">=7.1",
+                "psr/log": "^1.1"
             },
             "require-dev": {
-                "bcosca/fatfree-core": "^3.6"
+                "bcosca/fatfree-core": "^3.5",
+                "chez14/phpcs": "^1.0",
+                "monolog/monolog": "^1.23",
+                "php-mock/php-mock-phpunit": "^2.6",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6",
+                "vlucas/phpdotenv": "^5.4"
+            },
+            "suggest": {
+                "mongodb/mongodb": "Enable the MongoDB Support for your project",
+                "monolog/monolog": "Allows more advanced logging of the application flow"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "src/"
-                ]
+                "psr-4": {
+                    "CHEZ14\\Ilgar\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -94,22 +104,22 @@
             ],
             "support": {
                 "issues": "https://github.com/chez14/f3-ilgar/issues",
-                "source": "https://github.com/chez14/f3-ilgar/tree/master"
+                "source": "https://github.com/chez14/f3-ilgar/tree/next"
             },
-            "time": "2019-06-09T11:03:12+00:00"
+            "time": "2022-05-14T20:58:03+00:00"
         },
         {
             "name": "ikkez/f3-cortex",
-            "version": "v1.7.1",
+            "version": "v1.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ikkez/f3-cortex.git",
-                "reference": "22b7fb87ff4a406e9a6de7fee8ab4de7f580ded2"
+                "reference": "65213c42ec612aa245ac6db90bb7eb7fc7ed2bf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/22b7fb87ff4a406e9a6de7fee8ab4de7f580ded2",
-                "reference": "22b7fb87ff4a406e9a6de7fee8ab4de7f580ded2",
+                "url": "https://api.github.com/repos/ikkez/f3-cortex/zipball/65213c42ec612aa245ac6db90bb7eb7fc7ed2bf3",
+                "reference": "65213c42ec612aa245ac6db90bb7eb7fc7ed2bf3",
                 "shasum": ""
             },
             "require": {
@@ -136,9 +146,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ikkez/f3-cortex/issues",
-                "source": "https://github.com/ikkez/f3-cortex/tree/v1.7.1"
+                "source": "https://github.com/ikkez/f3-cortex/tree/v1.7.5"
             },
-            "time": "2020-12-06T22:08:57+00:00"
+            "time": "2022-02-28T00:28:03+00:00"
         },
         {
             "name": "ikkez/f3-schema-builder",
@@ -182,51 +192,69 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.26.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33"
+                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
-                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/247918972acd74356b0a91dfaa5adcaec069b6c0",
+                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0"
+                "php": ">=7.2",
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
             },
             "provide": {
-                "psr/log-implementation": "1.0.0"
+                "psr/log-implementation": "1.0.0 || 2.0.0 || 3.0.0"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
-                "graylog2/gelf-php": "~1.0",
-                "php-amqplib/php-amqplib": "~2.4",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
+                "graylog2/gelf-php": "^1.4.2",
+                "guzzlehttp/guzzle": "^7.4",
+                "guzzlehttp/psr7": "^2.2",
+                "mongodb/mongodb": "^1.8",
+                "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "php-console/php-console": "^3.1.3",
-                "phpstan/phpstan": "^0.12.59",
-                "phpunit/phpunit": "~4.5",
-                "ruflin/elastica": ">=0.90 <3.0",
-                "sentry/sentry": "^0.13",
-                "swiftmailer/swiftmailer": "^5.3|^6.0"
+                "phpspec/prophecy": "^1.15",
+                "phpstan/phpstan": "^0.12.91",
+                "phpunit/phpunit": "^8.5.14",
+                "predis/predis": "^1.1",
+                "rollbar/rollbar": "^1.3 || ^2 || ^3",
+                "ruflin/elastica": "^7",
+                "swiftmailer/swiftmailer": "^5.3|^6.0",
+                "symfony/mailer": "^5.4 || ^6",
+                "symfony/mime": "^5.4 || ^6"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "ext-curl": "Required to send log messages using the IFTTTHandler, the LogglyHandler, the SendGridHandler, the SlackWebhookHandler or the TelegramBotHandler",
+                "ext-mbstring": "Allow to work properly with unicode symbols",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+                "ext-openssl": "Required to send log messages using SSL",
+                "ext-sockets": "Allow sending log messages to a Syslog server (via UDP driver)",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "sentry/sentry": "Allow sending log messages to a Sentry server"
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -240,11 +268,11 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
+                    "homepage": "https://seld.be"
                 }
             ],
             "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-            "homepage": "http://github.com/Seldaek/monolog",
+            "homepage": "https://github.com/Seldaek/monolog",
             "keywords": [
                 "log",
                 "logging",
@@ -252,7 +280,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/1.26.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.6.0"
             },
             "funding": [
                 {
@@ -264,20 +292,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-14T12:56:38+00:00"
+            "time": "2022-05-10T09:36:00+00:00"
         },
         {
             "name": "psr/log",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
-                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +329,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -312,32 +340,32 @@
                 "psr-3"
             ],
             "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.3"
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
-            "time": "2020-03-23T09:12:05+00:00"
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "spatie/array-to-xml",
-            "version": "2.16.0",
+            "version": "3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/array-to-xml.git",
-                "reference": "db39308c5236b69b89cadc3f44f191704814eae2"
+                "reference": "14ac461c1a97a14ab4656f3c1edfcfd776cbb37b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/db39308c5236b69b89cadc3f44f191704814eae2",
-                "reference": "db39308c5236b69b89cadc3f44f191704814eae2",
+                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/14ac461c1a97a14ab4656f3c1edfcfd776cbb37b",
+                "reference": "14ac461c1a97a14ab4656f3c1edfcfd776cbb37b",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "php": "^7.4|^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.2",
-                "phpunit/phpunit": "^9.0",
-                "spatie/phpunit-snapshot-assertions": "^4.2"
+                "pestphp/pest": "^1.21",
+                "spatie/pest-plugin-snapshots": "^1.1"
             },
             "type": "library",
             "autoload": {
@@ -365,8 +393,7 @@
                 "xml"
             ],
             "support": {
-                "issues": "https://github.com/spatie/array-to-xml/issues",
-                "source": "https://github.com/spatie/array-to-xml/tree/2.16.0"
+                "source": "https://github.com/spatie/array-to-xml/tree/3.1.3"
             },
             "funding": [
                 {
@@ -378,16 +405,18 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-18T22:03:17+00:00"
+            "time": "2022-05-08T20:26:48+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "chez14/f3-ilgar": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

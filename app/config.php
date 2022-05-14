@@ -20,4 +20,4 @@
         }
     }
 
-    \Chez14\Ilgar\Boot::now();
+    \CHEZ14\Ilgar\Boot::now();
