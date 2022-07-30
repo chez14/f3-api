@@ -13,7 +13,7 @@ services:
       - .env
 
   db:
-    image: mariadb:10.5.8
+    image: mariadb:10
     command: --default-authentication-plugin=mysql_native_password
     volumes:
       - ./.infra/mysql-db:/var/lib/mysql
@@ -21,7 +21,7 @@ services:
       - .env
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin:4.8
+    image: phpmyadmin/phpmyadmin:5
     ports:
       - "8000:80"
     links:
