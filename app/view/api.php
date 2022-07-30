@@ -27,6 +27,6 @@ class Api
 
     protected static function serve($data)
     {
-        \Output\JSON::instance()->serve($data);
+        Output\JSON::instance()->serve($data);
     }
 }
