@@ -47,12 +47,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chez14/f3-ilgar.git",
-                "reference": "59b99e0bfbc7edbfffef10762773061a8879416b"
+                "reference": "10ca75a3548e60f9f6477d92c8a25c345ae8b5ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chez14/f3-ilgar/zipball/59b99e0bfbc7edbfffef10762773061a8879416b",
-                "reference": "59b99e0bfbc7edbfffef10762773061a8879416b",
+                "url": "https://api.github.com/repos/chez14/f3-ilgar/zipball/10ca75a3548e60f9f6477d92c8a25c345ae8b5ec",
+                "reference": "10ca75a3548e60f9f6477d92c8a25c345ae8b5ec",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
                 "issues": "https://github.com/chez14/f3-ilgar/issues",
                 "source": "https://github.com/chez14/f3-ilgar/tree/next"
             },
-            "time": "2022-05-14T20:58:03+00:00"
+            "time": "2022-07-24T10:24:51+00:00"
         },
         {
             "name": "ikkez/f3-cortex",
@@ -192,16 +192,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.6.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0"
+                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/247918972acd74356b0a91dfaa5adcaec069b6c0",
-                "reference": "247918972acd74356b0a91dfaa5adcaec069b6c0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
+                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
                 "shasum": ""
             },
             "require": {
@@ -221,11 +221,10 @@
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
-                "php-console/php-console": "^3.1.3",
                 "phpspec/prophecy": "^1.15",
                 "phpstan/phpstan": "^0.12.91",
                 "phpunit/phpunit": "^8.5.14",
-                "predis/predis": "^1.1",
+                "predis/predis": "^1.1 || ^2.0",
                 "rollbar/rollbar": "^1.3 || ^2 || ^3",
                 "ruflin/elastica": "^7",
                 "swiftmailer/swiftmailer": "^5.3|^6.0",
@@ -245,7 +244,6 @@
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
-                "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
@@ -280,7 +278,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.6.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
             },
             "funding": [
                 {
@@ -292,7 +290,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-10T09:36:00+00:00"
+            "time": "2022-07-24T11:55:47+00:00"
         },
         {
             "name": "psr/log",
