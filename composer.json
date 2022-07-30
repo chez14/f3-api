@@ -16,13 +16,18 @@
         "bcosca/fatfree-core": "^3.7",
         "ikkez/f3-cortex": "^1.7",
         "chez14/f3-ilgar": "dev-next",
-        "monolog/monolog": "^2.6",
-        "spatie/array-to-xml": "^3.1"
+        "spatie/array-to-xml": "^3.1",
+        "vlucas/phpdotenv": "^5.4",
+        "monolog/monolog": "^2.6"
     },
     "config": {
         "vendor-dir": "vendor"
     },
     "scripts": {
         "start":"./start_php_dev_server.sh"
+    },
+    "require-dev": {
+        "chez14/phpcs": "^1.0",
+        "squizlabs/php_codesniffer": "^3.7"
     }
 }
