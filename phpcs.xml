@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset name="f3-ilgar">
+    <description></description>
+    <config name="installed_paths" value="../../chez14/phpcs/src/CHEZ14Standards"/>
+    <rule ref="CHEZ14Standards" scope="path">
+        <exclude-pattern>vendor/*</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
+        <exclude-pattern>app/controller/*</exclude-pattern>
+        <exclude-pattern>app/model/*</exclude-pattern>
+    </rule>
+    <rule ref="PEAR.Commenting.FunctionComment.Missing">
+        <exclude-pattern>app/migration/*</exclude-pattern>
+        <exclude-pattern>app/model/*</exclude-pattern>
+    </rule>
+</ruleset>
